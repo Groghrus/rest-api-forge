@@ -2,7 +2,7 @@
 
 Шаблон REST API на **Node.js + TypeScript**: как спроектировать архитектуру REST API — слои, валидация, единый формат ошибок, JWT-auth.
 
-Клонируй под новый проект: структура `modules/<feature>/{routes,controller,service,repository,schemas}` переиспользуется как есть.
+Склонировать под новый проект: структура `modules/<feature>/{routes,controller,service,repository,schemas}` переиспользуется как есть.
 
 **Стек:** Express 5 · TypeScript (strict) · PostgreSQL · Drizzle ORM · Zod · JWT + bcrypt · pino · CORS · rate limiting · Vitest + supertest
 
@@ -116,11 +116,7 @@ src/
 
 ## Документация
 
-Основы проектирования REST API, план разработки и контекст проекта — в локальной папке `../doc` (в репозиторий не входит):
-
-- [REST-API-BASICS.md](../doc/REST-API-BASICS.md) — теория + практика: ресурсы, методы, статусы, ошибки, архитектура, чек-лист
-- [TASKS.md](../doc/TASKS.md) — план разработки
-- [CONTEXT.md](../doc/CONTEXT.md) — контекст и решения
+- [docs/REST-API-BASICS.md](docs/REST-API-BASICS.md) — основы проектирования REST API: ресурсы, методы, статусы, ошибки, архитектура, чек-лист
 
 ## Лицензия
 
